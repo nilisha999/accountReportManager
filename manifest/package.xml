@@ -6,8 +6,11 @@
 		<name>ApexClass</name>
 	</types>
 	<types>
-		<members>Cart__c.Status__c</members>
-		<members>Case.Status_Note__c</members>
+		<members>Account_Request__c.Billing_City__c</members>
+		<members>Account_Request__c.Shipping_City__c</members>
+		<members>Address_Book__c.Landmark__c</members>
+		<members>Candidate__c.City__c</members>
+		<members>Customers__c.Address__c</members>
 		<name>CustomField</name>
 	</types>
 	<version>65.0</version>

@@ -9,5 +9,6 @@ private class MyEmergencyClassTest {
         
         // Assert that the result is what we expected
         System.assertEquals('System is stable', status, 'The status should be stable');
+        System.debug('Test for getStatus completed successfully');
     }
 }
