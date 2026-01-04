@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Rating__c</fullName>
+    <label>Client Rating</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Platinum  AUM over Rs 1 cr</fullName>
+                <default>false</default>
+                <label>Platinum  AUM over Rs 1 cr</label>
+            </value>
+            <value>
+                <fullName>Gold  Rs 50 lakhs to Rs 1 cr</fullName>
+                <default>false</default>
+                <label>Gold  Rs 50 lakhs to Rs 1 cr</label>
+            </value>
+            <value>
+                <fullName>Silver Rs 25 lakhs to Rs 50 lakhs</fullName>
+                <default>false</default>
+                <label>Silver Rs 25 lakhs to Rs 50 lakhs</label>
+            </value>
+            <value>
+                <fullName>Bronze  below Rs 25 lakhs</fullName>
+                <default>false</default>
+                <label>Bronze  below Rs 25 lakhs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

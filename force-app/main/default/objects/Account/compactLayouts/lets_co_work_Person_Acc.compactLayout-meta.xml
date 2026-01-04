@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>lets_co_work_Person_Acc</fullName>
+    <fields>RecordTypeId</fields>
+    <fields>Name</fields>
+    <fields>Type</fields>
+    <fields>Phone</fields>
+    <fields>Industry</fields>
+    <fields>AnnualRevenue</fields>
+    <fields>OwnerId</fields>
+    <fields>Active__c</fields>
+    <label>lets co work Person Acc</label>
+</CompactLayout>

@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Document Manager" icon-name="standard:file">
+        <div class="slds-p-around_medium">
+            <p class="slds-m-bottom_medium">
+                Generate a PDF, save it to Files, and open it in a new tab.
+            </p>
+
+            <lightning-button
+                variant="brand"
+                label="Generate PDF"
+                onclick={handleGenerate}
+                loading={isLoading}>
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>

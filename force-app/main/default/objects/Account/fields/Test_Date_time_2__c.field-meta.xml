@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_Date_time_2__c</fullName>
+    <defaultValue>DATETIMEVALUE(TEXT(DATEVALUE(NOW())) + &apos; 12:59:00&apos;)</defaultValue>
+    <label>Test Date time 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

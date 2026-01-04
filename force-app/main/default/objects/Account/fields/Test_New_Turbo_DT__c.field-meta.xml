@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test_New_Turbo_DT__c</fullName>
+    <formula>DATETIMEVALUE(TEXT(DATEVALUE( CreatedDate )) + &apos; 17:30:00&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Turbo Date at 6 am</inlineHelpText>
+    <label>Test New Turbo DT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>
